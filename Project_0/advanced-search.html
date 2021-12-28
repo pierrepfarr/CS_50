@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced_Search</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    </head>
+    <body>
+
+    <!-- page navigation -->
+    <div class="advanced-logo"> 
+        <div>
+            <a href="index.html">
+            <img 
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" 
+            alt="image_logo"
+            />
+            </a>
+        </div>
+        <div style="margin-left: auto;"> 
+            <a href="index.html">Google Search</a>
+            <a href="images-search.html">Google images</a>
+        </div>
+    </div>  
+    <!-- end of page navigation -->
+
+    <!-- begin app bar -->
+    <div class="advanced-bar">
+        <label>Advanced Search</label> 
+    </div>
+    <div class="divider"></div>
+    <!-- end app bar -->
+
+    <!--  advanced search  -->
+    <div class="advanced-container">
+        <form action="https://google.com/search" method="get">
+            <div class= "advanced-form-header"> 
+                <div class="advanced-header-label"> <label> Find Pages With</label></div>
+                <div class="advanced-header-input"> </div>
+                <div class="advanced-header-ex"> "To do this in the search box"</div>
+            </div>
+            
+            <div>
+                <div class="advanced-field">
+                    <div class="advanced-label"> <label> all these words:</label></div>
+                    <div class="advanced-input"> 
+                        <div class="advanced-input-box"><input type="text" name="as_q"></div>
+                    </div>
+                    <div class="advanced-ex"> "Type these important words:"
+                        <span class= "advanced-span"> tricolor rat terrier</span>
+                    </div>
+                </div>
+                
+                <div class="advanced-field">
+                    <div class="advanced-label"> <label>This exact word or pharse:</label></div>
+                    <div class="advanced-input"> 
+                        <div class="advanced-input-box"><input type="text" name="as_epq"></div>
+                    </div>
+                    <div class="advanced-ex"> "Put exact words in quotes:" 
+                        <span class= "advanced-span"> "rat terrier"</span>
+                    </div>
+                </div>
+                
+                <div class="advanced-field">
+                    <div class="advanced-label"> <label> Any of these words:</label></div>
+                    <div class="advanced-input"> 
+                        <div class="advanced-input-box"><input type="text" name="as_oq"></div>
+                    </div>
+                    <div class="advanced-ex"> "Type OR between all the words you want:"
+                        <span class= "advanced-span"> miniature OR Standard</span>
+                    </div>
+                </div>
+
+                <div class="advanced-field">
+                    <div class="advanced-label"> <label> None of these Words:</label></div>
+                    <div class="advanced-input"> 
+                        <div class="advanced-input-box"><input type="text" name="as_eq"></div>
+                    </div>
+                    <div class="advanced-ex"> "Put a minus sign just before words that you don't want:"
+                        <span class= "advanced-span"> -rodent, &nbsp-"Jack Russell"</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div>
+                <div class="advanced-field">
+                    <div class="advanced-label"></div>
+                    <div class="advanced-input">
+                        <div class="advanced-submit"><input type="submit" value="Advanced Search"></div>
+                    </div>
+                    <div class="advanced-ex"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- end search -->
+    
+    </body>
+</html>

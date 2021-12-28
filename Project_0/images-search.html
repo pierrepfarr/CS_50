@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image_Search</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    </head>
+    <body>
+
+    <!-- page navigation -->
+    <div>
+        <div style="text-align: right;"> 
+            <a href="index.html">Google Search</a>
+            <a href="advanced-search.html">Google Advanced Search</a>
+        </div>
+    </div>
+    <!-- end of page navigation -->
+
+    <!-- search  -->
+    <div class="search-container">
+        <img 
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" 
+        alt="image_logo"
+        />
+        <form action="https://google.com/search" method="get">
+            <input type="hidden" name="hl" value="en">
+            
+            <div class="search-field">
+            <input type="text" name="q" placeholder="Search Google or type a URL">
+            </div>
+            <input type="hidden" name="tbm" value="isch">
+            <input type="hidden" name="sclient" value="img">
+
+        </form>
+    
+    </div>
+    <!-- end search -->
+    
+    </body>
+</html>
